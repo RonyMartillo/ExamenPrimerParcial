@@ -19,4 +19,4 @@ import { ComponentsModule } from 'src/app/components/components.module';
   ],
   declarations: [ActionSheetPage]
 })
-export class ActionSheetPageModule {}
+export class ActionSheetPageModule { }

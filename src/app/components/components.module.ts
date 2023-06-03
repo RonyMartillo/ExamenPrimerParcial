@@ -15,6 +15,7 @@ import { IonModal, IonicModule } from '@ionic/angular';
   imports: [
     CommonModule,
     IonicModule
+    
   ]
   })
 export class ComponentsModule { }

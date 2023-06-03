@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ComponentsModule } from 'src/app/components/components.module';
+import { ComponentsModule } from '../../components/components.module';
 
 interface Componente {
   icon: string;
@@ -21,9 +21,9 @@ export class InicioPage implements OnInit {
     redirectTo: '/action-sheet'
   },
   {
-  icon: 'logo-apple-appstore',
-  name: 'Alert',
-  redirectTo: '/alert'
+     icon: 'logo-apple-appstore',
+     name: 'Alert',
+     redirectTo: '/alert'
   },
 ];
   constructor() { }
