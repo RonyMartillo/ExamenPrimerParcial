@@ -25,6 +25,8 @@ export class InicioPage implements OnInit {
      name: 'Alert',
      redirectTo: '/alert'
   },
+
+  
 ];
   constructor() { }
   ngOnInit() {
