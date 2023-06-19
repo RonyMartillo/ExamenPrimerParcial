@@ -14,7 +14,8 @@ import { IonModal, IonicModule } from '@ionic/angular';
   ],
   imports: [
     CommonModule,
-    IonicModule
+    IonicModule,
+    
     
   ]
   })
